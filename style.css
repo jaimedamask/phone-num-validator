@@ -12,5 +12,13 @@ body {
     border-radius: 15px;
     height: 480px;
     margin: 0 auto;
-    width: 320px;
+    width: 300px;
+}
+
+#screen {
+    background-color: #fff;
+    height: 420px;
+    margin: 30px 20px;
+    position: absolute;
+    width: 260px;
 }
