@@ -17,6 +17,8 @@ const checkInput = () => {
     } else {
         alert('Please provide a phone number');
     }
+
+    input.value = '';
 }
 
 checkBtn.addEventListener('click', checkInput);
