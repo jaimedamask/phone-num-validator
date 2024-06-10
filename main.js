@@ -23,6 +23,12 @@ const checkInput = () => {
 
 checkBtn.addEventListener('click', checkInput);
 
+input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        checkInput();
+    }
+});
+
 clearBtn.addEventListener('click', () => {
     input.value = '';
     results.textContent = '';
