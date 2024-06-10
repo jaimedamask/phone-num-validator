@@ -20,3 +20,8 @@ const checkInput = () => {
 }
 
 checkBtn.addEventListener('click', checkInput);
+
+clearBtn.addEventListener('click', () => {
+    input.value = '';
+    results.textContent = '';
+});
