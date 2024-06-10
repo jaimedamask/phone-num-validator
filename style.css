@@ -6,3 +6,10 @@ body {
     padding: 0;
     text-align: center;
 }
+
+#phone {
+    background: linear-gradient(#3066be, #2af5ff);
+    border-radius: 15px;
+    height: 480px;
+    width: 320px;
+}
