@@ -35,9 +35,18 @@ body {
 
 #screen {
     background-color: #fff;
-    height: 380px;
+    height: 374px;
     margin-left: 5px;
     margin-top: 10px;
     position: absolute;
     width: 250px;
+}
+
+#fake-btn {
+    border: 1px solid #A8B9F0;
+    border-radius: 50%;
+    height: 20px;
+    margin: 390px 120px 0 120px;
+    position: absolute;
+    width: 20px;
 }
