@@ -24,11 +24,20 @@ body {
     width: 260px;
 }
 
+#cam {
+    background-color: #A8B9F0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 9px;
+    margin: 12px auto 0 auto;
+    width: 9px;
+}
+
 #screen {
     background-color: #fff;
     height: 380px;
     margin-left: 5px;
-    margin-top: 25px;
+    margin-top: 10px;
     position: absolute;
     width: 250px;
 }
