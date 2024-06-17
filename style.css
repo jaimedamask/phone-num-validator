@@ -34,10 +34,15 @@ body {
 }
 
 #screen {
-    background-color: #fff;
+    background-color: #d2d9f1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     height: 374px;
+    justify-content: space-between;
     margin-left: 5px;
     margin-top: 10px;
+    padding: 15px;
     position: absolute;
     width: 250px;
 }
@@ -65,8 +70,10 @@ button {
 
 #check-btn {
     background-color: #48E096;
+    margin-right: 4px;
 }
 
 #clear-btn {
     background-color: #e0485f;
+    margin-left: 4px;
 }
